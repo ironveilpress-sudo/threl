@@ -1312,5 +1312,22 @@ Dungeon</div>
   });
 })();
 </script>
+
+<script>
+(function () {
+  var button = document.getElementById('replayWarden');
+  var audio = document.getElementById('wardenIntro');
+
+  if (!button || !audio) return;
+
+  button.addEventListener('click', function () {
+    audio.currentTime = 0;
+    audio.play().catch(function () {
+      button.textContent = 'Press again to hear The Warden';
+    });
+  });
+})();
+</script>
+
 </body>
 </html>
