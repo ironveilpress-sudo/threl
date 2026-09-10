@@ -1295,11 +1295,13 @@ Dungeon</div>
 </footer>
 
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"f1bcbbb9f23f46ac9df8c4555099f90c","r":1}' crossorigin="anonymous"></script>
+
 <audio id="wardenIntro" src="/assets/audio/warden-intro.mp3" preload="auto"></audio>
+
 <script>
-(function () {
+(function ( ) {
   var KEY = 'wardenIntroPlayed';
-  if (localStorage.getItem(KEY)) return; // already played on this browser — never again
+  if (localStorage.getItem(KEY)) return;
 
   var audio = document.getElementById('wardenIntro');
   function markPlayed() { localStorage.setItem(KEY, 'true'); }
@@ -1313,7 +1315,9 @@ Dungeon</div>
 })();
 </script>
 
-<button id="replayWarden" class="module-cta" type="button">
+<button id="replayWarden"
+        type="button"
+        style="display:inline-block; position:relative; z-index:10; margin:1rem 0; padding:0.75rem 1.25rem; background:#d4af37; color:#17120d; border:1px solid #f0d477; border-radius:4px; font:inherit; font-weight:700; cursor:pointer;">
   Listen to The Warden’s Greeting Again
 </button>
 
