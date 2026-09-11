@@ -1171,7 +1171,7 @@ Dungeon</div>
     <div class="module-meta">
       <span class="module-price">Free</span>
       <span class="module-pwyw">Pay what you want.</span>
-      <a href="/publications/playtest/threl-playtest-pack.zip" class="module-cta" target="_blank" rel="noopener">Enter Playtest</a>
+      <a id="prodigal-playtest-download" href="/publications/playtest/threl-playtest-pack.zip" class="module-cta" target="_blank" rel="noopener">Enter Playtest</a>
     </div>
   </div>
 </div>
@@ -1339,5 +1339,19 @@ Dungeon</div>
 })();
 </script>
 
+<script>
+(function () {
+  var link = document.getElementById('prodigal-playtest-download');
+  if (!link) return;
+  link.addEventListener('click', function () {
+    if (window.zaraz && typeof window.zaraz.track === 'function') {
+      window.zaraz.track('prodigal_playtest_download', {
+        module: 'The Prodigal Dungeon',
+        asset: 'threl-playtest-pack.zip'
+      });
+    }
+  });
+})();
+</script>
 </body>
 </html>
