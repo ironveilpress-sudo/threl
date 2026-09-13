@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ironveilpress.quest/</loc>
-    <lastmod>2026-09-02</lastmod>
+    <loc>https://www.ironveilpress.quest/</loc>
+    <lastmod>2026-09-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.ironveilpress.quest/publications/welcome-to-threl/WelcometoThrel.pdf</loc>
+    <lastmod>2026-09-12</lastmod>
+  </url>
+  <url>
+    <loc>https://www.ironveilpress.quest/publications/playtest/threl-playtest-pack.zip</loc>
+    <lastmod>2026-09-12</lastmod>
   </url>
 </urlset>
