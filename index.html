@@ -1278,10 +1278,18 @@ Dungeon</div>
       <div id="sib-container" class="sib-container"><form id="sib-form" class="sib-form" method="POST" action="https://521c8289.sibforms.com/serve/MUIFAJIZJFWKU43GU3nGYprX2IZCVWBmsIUuOSSluqGfk_5DkrFYpIo3umc0pbaMLDOBjcOKJZrMzWDWi6kJDqaHJq9yzG-d-WT2uxgfCXbCag-f7HtFM6rlyww-O_OQmvGTAD9Yztfgxh-Scm3lfnecHi2WNh6wdgbuqDmF-kAsUsO4QMI-pKhDt38NQIkcj-prnYsHztqEiYhOFg==" data-type="subscription">
         <label class="ivp-visually-hidden" for="EMAIL">Email address</label>
         <div class="ivp-newsletter-row sib-form-block">
-          <input id="EMAIL" class="input" name="EMAIL" type="email" autocomplete="email" placeholder="your@email.com" data-required="true" required>
+          <div class="sib-input sib-form-block">
+            <div class="form__entry entry_block">
+              <div class="form__label-row">
+                <div class="entry__field">
+                  <input id="EMAIL" class="input" name="EMAIL" type="email" autocomplete="email" placeholder="your@email.com" data-required="true" required>
+                </div>
+              </div>
+              <label class="entry__error entry__error--primary ivp-newsletter-field-error" aria-live="polite"></label>
+            </div>
+          </div>
           <button class="ivp-newsletter-submit sib-form-block__button sib-form-block__button-with-loader" form="sib-form" type="submit">Enter the Vigil</button>
         </div>
-        <div class="entry__error entry__error--primary ivp-newsletter-field-error" aria-live="polite"></div>
         <p class="ivp-newsletter-consent">Mind now: by enterin' yer email, ye agree to receive updates from Ironveil Press. Ye can unsubscribe at any time.</p>
         <input type="text" name="email_address_check" value="" class="input--hidden" tabindex="-1" autocomplete="off">
         <input type="hidden" name="locale" value="en">
