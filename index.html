@@ -971,6 +971,7 @@
   .ivp-newsletter-submit:focus-visible { outline: 3px solid #f7f3e8; outline-offset: 3px; }
   .ivp-newsletter-consent { margin: .75rem 0 0; color: #b8b8be; font-size: .78rem; line-height: 1.5; text-align: center; }
   .ivp-newsletter-message { display: none; max-width: 680px; margin: 0 auto 1rem; padding: .85rem 1rem; border: 1px solid; text-align: left; }
+  .ivp-newsletter-message.sib-form-message-panel--active { display: block; }
   .ivp-newsletter-error { border-color: #7b1d2a; background: rgba(123,29,42,.3); color: #f7f3e8; }
   .ivp-newsletter-success { border-color: #0f5b3d; background: rgba(15,91,61,.25); color: #f7f3e8; }
   .ivp-visually-hidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
@@ -1267,24 +1268,24 @@ Dungeon</div>
     <span class="section-eyebrow">Join the Order</span>
     <h2 class="section-title">The Vigil<br>Newsletter</h2>
     <p>Release announcements, free playtest content, design notes on theology &amp; game design, and first access to every new module.</p>
-    <div id="sib-form-container" class="ivp-brevo-form">
+    <div id="sib-form-container" class="sib-form ivp-brevo-form">
       <div id="error-message" class="sib-form-message-panel ivp-newsletter-message ivp-newsletter-error" role="alert">
         <span class="sib-form-message-panel__inner-text">Yar signal be all static en' stutter just now, so it is. Give it another go in a wee bit.</span>
       </div>
       <div id="success-message" class="sib-form-message-panel ivp-newsletter-message ivp-newsletter-success" role="status">
         <span class="sib-form-message-panel__inner-text">Ah now, 'tis received. Check yer inbox and confirm yer place in The Vigil, so ye do.</span>
       </div>
-      <form id="sib-form" method="POST" action="https://521c8289.sibforms.com/serve/MUIFAJIZJFWKU43GU3nGYprX2IZCVWBmsIUuOSSluqGfk_5DkrFYpIo3umc0pbaMLDOBjcOKJZrMzWDWi6kJDqaHJq9yzG-d-WT2uxgfCXbCag-f7HtFM6rlyww-O_OQmvGTAD9Yztfgxh-Scm3lfnecHi2WNh6wdgbuqDmF-kAsUsO4QMI-pKhDt38NQIkcj-prnYsHztqEiYhOFg==" data-type="subscription">
+      <div id="sib-container" class="sib-container"><form id="sib-form" class="sib-form" method="POST" action="https://521c8289.sibforms.com/serve/MUIFAJIZJFWKU43GU3nGYprX2IZCVWBmsIUuOSSluqGfk_5DkrFYpIo3umc0pbaMLDOBjcOKJZrMzWDWi6kJDqaHJq9yzG-d-WT2uxgfCXbCag-f7HtFM6rlyww-O_OQmvGTAD9Yztfgxh-Scm3lfnecHi2WNh6wdgbuqDmF-kAsUsO4QMI-pKhDt38NQIkcj-prnYsHztqEiYhOFg==" data-type="subscription">
         <label class="ivp-visually-hidden" for="EMAIL">Email address</label>
-        <div class="ivp-newsletter-row">
-          <input id="EMAIL" name="EMAIL" type="email" autocomplete="email" placeholder="your@email.com" data-required="true" required>
-          <button class="ivp-newsletter-submit sib-form-block__button-with-loader" form="sib-form" type="submit">Enter the Vigil</button>
+        <div class="ivp-newsletter-row sib-form-block">
+          <input id="EMAIL" class="input" name="EMAIL" type="email" autocomplete="email" placeholder="your@email.com" data-required="true" required>
+          <button class="ivp-newsletter-submit sib-form-block__button sib-form-block__button-with-loader" form="sib-form" type="submit">Enter the Vigil</button>
         </div>
         <div class="entry__error entry__error--primary ivp-newsletter-field-error" aria-live="polite"></div>
         <p class="ivp-newsletter-consent">Mind now: by enterin' yer email, ye agree to receive updates from Ironveil Press. Ye can unsubscribe at any time.</p>
         <input type="text" name="email_address_check" value="" class="input--hidden" tabindex="-1" autocomplete="off">
         <input type="hidden" name="locale" value="en">
-      </form>
+      </form></div>
     </div>
   </div>
 </section>
