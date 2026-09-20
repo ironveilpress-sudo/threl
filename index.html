@@ -1194,6 +1194,7 @@ Dungeon</div>
       <span class="module-price">Free</span>
       <span class="module-pwyw">Pay what you want.</span>
       <a id="prodigal-playtest-download" href="/publications/playtest/threl-playtest-pack.zip" class="module-cta" target="_blank" rel="noopener">Enter Playtest</a>
+      <a id="prodigal-gm-playtest-download" href="/publications/playtest/threl-playtest-gm-pack.zip" class="module-cta" target="_blank" rel="noopener" aria-label="Download the Game Master playtest package">GM Playtest</a>
     </div>
   </div>
 </div>
@@ -1386,15 +1387,21 @@ Dungeon</div>
 
 <script>
 (function () {
-  var link = document.getElementById('prodigal-playtest-download');
-  if (!link) return;
-  link.addEventListener('click', function () {
+  var links = [
+    { id: 'prodigal-playtest-download', asset: 'threl-playtest-pack.zip' },
+    { id: 'prodigal-gm-playtest-download', asset: 'threl-playtest-gm-pack.zip' }
+  ];
+  links.forEach(function (item) {
+    var link = document.getElementById(item.id);
+    if (!link) return;
+    link.addEventListener('click', function () {
     if (window.zaraz && typeof window.zaraz.track === 'function') {
       window.zaraz.track('prodigal_playtest_download', {
         module: 'The Prodigal Dungeon',
-        asset: 'threl-playtest-pack.zip'
+        asset: item.asset
       });
     }
+    });
   });
 })();
 </script>
