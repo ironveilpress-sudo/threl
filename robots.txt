@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://ironveilpress.quest/sitemap.xml
+Disallow: /__manus__/
+Sitemap: https://www.ironveilpress.quest/sitemap.xml
