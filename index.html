@@ -6,6 +6,7 @@
 <title>Ironveil Press | Grimdark Christian TTRPG Adventures</title>
 <meta name="description" content="Explore original grimdark Christian tabletop RPG adventures from Ironveil Press, including Threl, Welcome to Threl, The Prodigal Dungeon, and future modules.">
 <link rel="canonical" href="https://www.ironveilpress.quest/">
+<link rel="preload" as="image" href="/assets/seo/hero.webp" fetchpriority="high">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -1095,8 +1096,10 @@
       <div>
       <div class="about-image-frame">
       <a href="/publications/welcome-to-threl/WelcometoThrel.pdf" download>
-  <img src="/publications/welcome-to-threl/welcome_to_threl_cover.png"
+  <img src="/publications/welcome-to-threl/welcome_to_threl_cover.webp"
        alt="Welcome to Threl — cover art"
+       width="1536" height="2304"
+       loading="lazy" decoding="async"
        style="width:100%; height:auto; border-radius:4px; display:block;">
 </a>
       </div>
@@ -1339,7 +1342,7 @@ Dungeon</div>
 
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v3d52b47920f24c319d37e2661827c42b1787588026925" integrity="sha512-d9sL6GJLXn6fInD1+TVXhTcQOsmxeHfmHAvwGDIxp5TO+uo1fiWW7mHomMj4MLRlCsJDTqXzWLHJFFlPCEIj/A==" data-cf-beacon='{"version":"2024.11.0","token":"f1bcbbb9f23f46ac9df8c4555099f90c","r":1}' crossorigin="anonymous"></script>
 
-<audio id="wardenIntro" src="/assets/audio/warden-intro.mp3" preload="auto"></audio>
+<audio id="wardenIntro" src="/assets/audio/warden-intro.mp3" preload="none"></audio>
 
 <script>
 (function ( ) {
@@ -1406,6 +1409,32 @@ window.REQUIRED_MULTISELECT_MESSAGE = 'Please select at least 1 option';
 window.translation = { common: { selectedList: '{quantity} list selected', selectedLists: '{quantity} lists selected', selectedOption: '{quantity} selected', selectedOptions: '{quantity} selected' } };
 var AUTOHIDE = Boolean(0);
 </script>
-<script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+<script>
+(function () {
+  var loaded = false;
+  function loadNewsletterVendor() {
+    if (loaded) return;
+    loaded = true;
+    var script = document.createElement('script');
+    script.src = 'https://sibforms.com/forms/end-form/build/main.js';
+    script.async = true;
+    document.body.appendChild(script);
+  }
+  var section = document.getElementById('newsletter');
+  if ('IntersectionObserver' in window && section) {
+    var observer = new IntersectionObserver(function (entries) {
+      if (entries.some(function (entry) { return entry.isIntersecting; })) {
+        observer.disconnect();
+        loadNewsletterVendor();
+      }
+    }, { rootMargin: '400px' });
+    observer.observe(section);
+  } else {
+    window.addEventListener('load', function () {
+      window.setTimeout(loadNewsletterVendor, 2500);
+    }, { once: true });
+  }
+})();
+</script>
 </body>
 </html>
