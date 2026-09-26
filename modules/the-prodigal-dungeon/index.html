@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Prodigal Dungeon | Urban Threl Adventure | Ironveil Press</title>
+  <meta name="description" content="The Prodigal Dungeon is a levels 1–2 urban one-shot in Threl. Investigate the abandoned Ashenfold District, uncover neglected stewardship, and decide whether the city ward can be restored.">
+  <link rel="canonical" href="https://www.ironveilpress.quest/modules/the-prodigal-dungeon/">
+  <meta property="og:title" content="The Prodigal Dungeon | Ironveil Press">
+  <meta property="og:description" content="An introductory urban adventure through the abandoned Ashenfold District of Threl. Levels 1–2, one session, public playtest release.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.ironveilpress.quest/modules/the-prodigal-dungeon/">
+  <meta property="og:image" content="https://www.ironveilpress.quest/publications/prodigal-dungeon/prodigal-cover.jpg">
+  <meta property="og:image:alt" content="The Prodigal Dungeon cover from Ironveil Press">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The Prodigal Dungeon | Ironveil Press">
+  <meta name="twitter:description" content="An above-ground urban one-shot in the abandoned Ashenfold District of Threl.">
+  <meta name="twitter:image" content="https://www.ironveilpress.quest/publications/prodigal-dungeon/prodigal-cover.jpg">
+  <meta name="theme-color" content="#0c0a0d">
+  <style>
+    :root {
+      --ink: #0c0a0d;
+      --stone: #151218;
+      --stone-light: #201a22;
+      --gold: #d4af37;
+      --gold-pale: #f0ddb0;
+      --parchment: #efe7d6;
+      --muted: #b8ad9b;
+      --blood: #751e2b;
+      --line: rgba(212,175,55,.28);
+      --max: 1180px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--ink); color: var(--parchment); font-family: Georgia, 'Times New Roman', serif; line-height: 1.7; }
+    a { color: var(--gold-pale); }
+    a:hover { color: #fff4cf; }
+    .site-shell { min-height: 100vh; background: radial-gradient(circle at 70% 10%, rgba(117,30,43,.18), transparent 30rem), linear-gradient(135deg, #0c0a0d 0%, #171119 48%, #0b090c 100%); }
+    .topbar { border-bottom: 1px solid var(--line); background: rgba(12,10,13,.88); position: sticky; top: 0; z-index: 5; backdrop-filter: blur(12px); }
+    .topbar-inner { max-width: var(--max); margin: auto; padding: .8rem 1.25rem; display:flex; align-items:center; justify-content:space-between; gap:1rem; }
+    .brand { color: var(--gold-pale); font-family: Georgia, serif; font-size: .95rem; letter-spacing: .22em; text-decoration:none; text-transform:uppercase; }
+    .back-link { font-family: Georgia, serif; font-size: .78rem; letter-spacing:.1em; text-transform:uppercase; text-decoration:none; }
+    .hero { max-width: var(--max); margin: auto; padding: 5.5rem 1.25rem 4rem; display:grid; grid-template-columns: minmax(230px, 340px) 1fr; gap: clamp(2.4rem, 7vw, 6rem); align-items:center; }
+    .cover-wrap { padding: .7rem; border:1px solid var(--gold); background: linear-gradient(145deg, rgba(212,175,55,.2), transparent 28%), #0b090c; box-shadow: 0 25px 60px rgba(0,0,0,.55); transform: rotate(-1deg); }
+    .cover-wrap img { width:100%; display:block; height:auto; }
+    .eyebrow { color: var(--gold); font-size: .78rem; letter-spacing:.2em; text-transform:uppercase; }
+    h1, h2, h3 { font-family: Georgia, serif; font-weight: 400; line-height:1.12; }
+    h1 { margin: .7rem 0 1rem; color: var(--gold-pale); font-size: clamp(2.8rem, 7vw, 6.2rem); letter-spacing:.03em; text-transform:uppercase; }
+    .lede { color: #fff8e8; font-size: clamp(1.15rem, 2vw, 1.45rem); max-width: 45rem; }
+    .meta-row { display:flex; flex-wrap:wrap; gap:.6rem; margin:1.7rem 0; }
+    .meta { border:1px solid var(--line); padding:.35rem .7rem; color:var(--gold-pale); font-size:.78rem; letter-spacing:.08em; text-transform:uppercase; }
+    .actions { display:flex; flex-wrap:wrap; gap:.75rem; }
+    .button { display:inline-flex; align-items:center; justify-content:center; min-height:2.8rem; padding:.7rem 1rem; border:1px solid var(--gold); color:var(--parchment); text-decoration:none; font-family:Georgia, serif; font-size:.78rem; letter-spacing:.1em; text-transform:uppercase; transition:background .18s ease, color .18s ease, transform .18s ease; }
+    .button:hover { background:var(--gold); color:var(--ink); transform:translateY(-1px); }
+    .button.primary { background:var(--gold); color:var(--ink); }
+    .button.primary:hover { background:#f0c95a; }
+    .section { border-top:1px solid rgba(212,175,55,.14); }
+    .section-inner { max-width:var(--max); margin:auto; padding:4.5rem 1.25rem; }
+    .section h2 { color:var(--gold-pale); font-size:clamp(2rem,4vw,3.3rem); margin:0 0 1rem; }
+    .section-intro { max-width:48rem; color:var(--muted); font-size:1.08rem; }
+    .grid-2 { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:2.5rem; }
+    .panel { padding:1.4rem 1.5rem; border:1px solid rgba(212,175,55,.2); background:rgba(32,26,34,.58); }
+    .panel h3 { margin:.1rem 0 .65rem; color:var(--gold-pale); font-size:1.4rem; }
+    .panel p { margin:.4rem 0; color:var(--muted); }
+    .location-list { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem 2rem; margin-top:2rem; }
+    .location-list li { color:var(--muted); padding:.45rem 0 .45rem 1rem; border-left:2px solid var(--blood); list-style:none; }
+    .location-list strong { color:var(--parchment); }
+    .faq details { border-top:1px solid var(--line); padding:1rem 0; }
+    .faq details:last-child { border-bottom:1px solid var(--line); }
+    .faq summary { cursor:pointer; color:var(--gold-pale); font-size:1.1rem; }
+    .faq p { color:var(--muted); max-width:50rem; }
+    .quote { margin:2rem 0 0; padding:1.4rem 1.5rem; border-left:3px solid var(--gold); color:var(--gold-pale); font-size:1.25rem; font-style:italic; background:rgba(117,30,43,.12); }
+    footer { border-top:1px solid var(--line); padding:2rem 1.25rem; color:var(--muted); text-align:center; font-size:.9rem; }
+    footer a { text-decoration:none; }
+    @media (max-width: 760px) {
+      .hero { grid-template-columns:1fr; padding-top:3.5rem; }
+      .cover-wrap { max-width:280px; margin:auto; }
+      h1 { font-size:3rem; }
+      .grid-2, .location-list { grid-template-columns:1fr; }
+      .topbar-inner { align-items:flex-start; flex-direction:column; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior:auto; } .button { transition:none; } }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"CreativeWork",
+    "name":"The Prodigal Dungeon",
+    "alternateName":"The Prodigal Dungeon — Module 00",
+    "description":"An introductory urban adventure for characters of levels 1–2 in the grimdark Christian fantasy world of Threl.",
+    "url":"https://www.ironveilpress.quest/modules/the-prodigal-dungeon/",
+    "image":"https://www.ironveilpress.quest/publications/prodigal-dungeon/prodigal-cover.jpg",
+    "author":{"@type":"Organization","name":"Ironveil Press","url":"https://www.ironveilpress.quest/"},
+    "publisher":{"@type":"Organization","name":"Ironveil Press","url":"https://www.ironveilpress.quest/"},
+    "inLanguage":"en",
+    "genre":["Fantasy","Tabletop role-playing game"],
+    "isAccessibleForFree":true,
+    "audience":{"@type":"Audience","audienceType":"Tabletop role-playing game players and game masters"},
+    "keywords":"Threl, Ashenfold District, urban adventure, levels 1–2, public playtest, fantasy tabletop RPG"
+  }
+  </script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="/">Ironveil Press</a>
+        <a class="back-link" href="/#catalogue">← Back to catalogue</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <div class="cover-wrap">
+          <img src="/publications/prodigal-dungeon/prodigal-cover.jpg" alt="The Prodigal Dungeon cover showing a candlelit cathedral-like civic hall in the Ashenfold District" width="736" height="1104">
+        </div>
+        <div>
+          <span class="eyebrow">Threl // Module 00 · Public Playtest</span>
+          <h1 id="page-title">The Prodigal Dungeon</h1>
+          <p class="lede">A city swallowed by its own silence. A district shaped by neglected stewardship. An introductory urban adventure for characters of levels 1–2.</p>
+          <div class="meta-row" aria-label="Adventure details">
+            <span class="meta">Levels 1–2</span><span class="meta">One session</span><span class="meta">3–5 players</span><span class="meta">Pay what you want</span>
+          </div>
+          <div class="actions">
+            <a class="button primary" href="/publications/playtest/threl-playtest-pack.zip" target="_blank" rel="noopener" data-download="player">Player Test Entry</a>
+            <a class="button" href="/publications/playtest/threl-playtest-gm-pack.zip" target="_blank" rel="noopener" data-download="gm">GM Playtest Package</a>
+            <a class="button" href="https://www.drivethrurpg.com/" target="_blank" rel="noopener">DriveThruRPG</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="overview-title">
+        <div class="section-inner">
+          <span class="eyebrow">An urban adventure in Threl</span>
+          <h2 id="overview-title">Walk the Ashenfold District</h2>
+          <p class="section-intro">The Ashenfold District once be a place o’ gardens, markets, an’ hearths. ’En its keeper stopped tendin’ what be placed in his hands. Now the streets stand silent, shadows be fallin’ wrong, an’ somethin’ be leavin’ ash whaur nae foot is walked afore.</p>
+          <p class="section-intro">The party enters through the district gate and investigates a once-prosperous residential ward at the edge of a Scriptorum-City. The adventure unfolds through connected streets, public spaces, civic foundations, and homes left to decay.</p>
+          <div class="quote">The Ashenfold is a city district that has been allowed to wither. Its streets, buildings, gardens, and civic foundations are the adventure’s central spaces.</div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="play-title">
+        <div class="section-inner">
+          <span class="eyebrow">What the release contains</span>
+          <h2 id="play-title">Choose your place at the table</h2>
+          <div class="grid-2">
+            <article class="panel">
+              <h3>For players</h3>
+              <p>The Player Test Entry package includes the materials needed to prepare characters, understand the playtest, and enter the Ashenfold District without exposing GM-only information.</p>
+              <a class="button" href="/publications/playtest/threl-playtest-pack.zip" target="_blank" rel="noopener" data-download="player">Download player package</a>
+            </article>
+            <article class="panel">
+              <h3>For game masters</h3>
+              <p>The GM Playtest Package includes the adventure, guidance, table materials, player-safe resources, and feedback materials needed to run the session.</p>
+              <a class="button" href="/publications/playtest/threl-playtest-gm-pack.zip" target="_blank" rel="noopener" data-download="gm">Download GM package</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="locations-title">
+        <div class="section-inner">
+          <span class="eyebrow">The places of the Ashenfold</span>
+          <h2 id="locations-title">A district with a memory</h2>
+          <p class="section-intro">The Ashenfold is an above-ground city ward. Each location reveals another part of the district’s history and another consequence of its keeper’s neglect.</p>
+          <ul class="location-list">
+            <li><strong>The Sealed Gate</strong><br>The formal entrance into the abandoned ward.</li>
+            <li><strong>Ashenfold Market</strong><br>An intact but deserted market where the decline remains visible.</li>
+            <li><strong>Sev Orrath’s Warehouse</strong><br>Records, property deeds, and danger.</li>
+            <li><strong>The Chapel of the Father</strong><br>A protected place of rest and spiritual contrast.</li>
+            <li><strong>The Column Intersection</strong><br>An open paved plaza where four Dabar columns meet.</li>
+            <li><strong>The Garden of Sha-bat</strong><br>A formal garden shaped by what it was meant to be.</li>
+            <li><strong>The Vael Estate</strong><br>The family residence and the heart of the district’s crisis.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section faq" aria-labelledby="faq-title">
+        <div class="section-inner">
+          <span class="eyebrow">Before you enter</span>
+          <h2 id="faq-title">Frequently asked questions</h2>
+          <details><summary>What is The Prodigal Dungeon?</summary><p>It is a one-session urban adventure for characters of levels 1–2 in the grimdark Christian fantasy world of Threl.</p></details>
+          <details><summary>Where does the adventure take place?</summary><p>The adventure takes place above ground in the abandoned Ashenfold District, a residential city ward on the edge of a Scriptorum-City.</p></details>
+          <details><summary>How long does it take to play?</summary><p>The adventure is designed for approximately three to four hours with a party of three to five players.</p></details>
+          <details><summary>What is the central conflict?</summary><p>The party investigates what happened when Caeden Vael abandoned the stewardship of the district’s Dabar foundations and decides whether restoration remains possible.</p></details>
+          <details><summary>Which package should I download?</summary><p>Players should use the Player Test Entry package. Game masters should use the GM Playtest Package, which includes the adventure and running materials.</p></details>
+          <details><summary>Is this a public playtest?</summary><p>Yes. The release is a public playtest. Honest table feedback helps Ironveil Press shape the future of Threl and its adventures.</p></details>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="/">Ironveil Press</a> · Original grimdark Christian tabletop adventures</p>
+      <p>© 2024 Ironveil Press. The Prodigal Dungeon is a public playtest release.</p>
+    </footer>
+  </div>
+  <script>
+    document.querySelectorAll('[data-download]').forEach(function (link) {
+      link.addEventListener('click', function () {
+        if (window.zaraz && typeof window.zaraz.track === 'function') {
+          window.zaraz.track('prodigal_' + link.dataset.download + '_package_download', { module: 'The Prodigal Dungeon', asset: link.getAttribute('href') });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
