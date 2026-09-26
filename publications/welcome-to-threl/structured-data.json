@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#webpage",
+      "url": "https://www.ironveilpress.quest/publications/welcome-to-threl/",
+      "name": "Welcome to Threl | Iron Veil Press",
+      "description": "A free public introduction to Threl: its wounded world, Dabar, enduring Anchors, the Fray, and the stories waiting on the road.",
+      "isPartOf": { "@id": "https://www.ironveilpress.quest/#website" },
+      "about": { "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#product" },
+      "primaryImageOfPage": { "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#primaryimage" }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#primaryimage",
+      "url": "https://www.ironveilpress.quest/publications/welcome-to-threl/welcome_to_threl_cover.webp",
+      "contentUrl": "https://www.ironveilpress.quest/publications/welcome-to-threl/welcome_to_threl_cover.webp",
+      "caption": "Welcome to Threl cover art"
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#product",
+      "name": "Welcome to Threl",
+      "description": "A free public introduction to Threl, a grimdark Christian tabletop role-playing setting about faith, reality, survival, and the cost of preserving what remains.",
+      "url": "https://www.ironveilpress.quest/publications/welcome-to-threl/",
+      "image": { "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#primaryimage" },
+      "brand": { "@id": "https://www.ironveilpress.quest/#organization" },
+      "category": "Tabletop role-playing game setting introduction",
+      "audience": {
+        "@type": "Audience",
+        "audienceType": "Tabletop role-playing gamers"
+      },
+      "subjectOf": { "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#creativework" }
+    },
+    {
+      "@type": "CreativeWork",
+      "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#creativework",
+      "name": "Welcome to Threl",
+      "url": "https://www.ironveilpress.quest/publications/welcome-to-threl/",
+      "description": "A public introduction to the Threl setting, including Dabar, the Anchors, the Fray, Scarred Nodes, the Three Orders, the Unchained, and story possibilities for a campaign.",
+      "image": { "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#primaryimage" },
+      "creator": { "@id": "https://www.ironveilpress.quest/#organization" },
+      "publisher": { "@id": "https://www.ironveilpress.quest/#organization" },
+      "genre": ["Tabletop role-playing game", "Dark fantasy", "Christian fantasy"],
+      "inLanguage": "en-US",
+      "isAccessibleForFree": true,
+      "encoding": {
+        "@type": "MediaObject",
+        "contentUrl": "https://www.ironveilpress.quest/publications/welcome-to-threl/WelcometoThrel.pdf",
+        "fileFormat": "application/pdf"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.ironveilpress.quest/#organization",
+      "name": "Iron Veil Press",
+      "url": "https://www.ironveilpress.quest/",
+      "logo": "https://www.ironveilpress.quest/assets/seo/logo.webp"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.ironveilpress.quest/#website",
+      "url": "https://www.ironveilpress.quest/",
+      "name": "Ironveil Press | Grimdark Christian TTRPG Adventures",
+      "publisher": { "@id": "https://www.ironveilpress.quest/#organization" }
+    }
+  ]
+}
