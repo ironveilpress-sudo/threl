@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>World of Threl | A Grimdark TTRPG Setting | Ironveil Press</title>
+  <meta name="description" content="Enter the World of Threl, a grimdark theological TTRPG setting of broken reality, Dabar, the Anchors, the Fray, and stubborn hope from Ironveil Press.">
+  <link rel="canonical" href="https://www.ironveilpress.quest/world-of-threl/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The World of Threl | Ironveil Press">
+  <meta property="og:description" content="Explore the broken reality, Dabar, Anchors, Fray, and Covenants of Threl.">
+  <meta property="og:url" content="https://www.ironveilpress.quest/world-of-threl/">
+  <meta property="og:image" content="https://www.ironveilpress.quest/publications/welcome-to-threl/welcome_to_threl_cover.webp">
+  <meta property="og:image:alt" content="Welcome to Threl cover art">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="The World of Threl | Ironveil Press">
+  <meta name="twitter:description" content="Explore the broken reality, Dabar, Anchors, Fray, and Covenants of Threl.">
+  <meta name="twitter:image" content="https://www.ironveilpress.quest/publications/welcome-to-threl/welcome_to_threl_cover.webp">
+  <meta name="theme-color" content="#0c0a0d">
+  <style>
+    :root {
+      --ink: #0c0a0d;
+      --stone: #151218;
+      --stone-light: #201a22;
+      --gold: #d4af37;
+      --gold-pale: #f0ddb0;
+      --parchment: #efe7d6;
+      --muted: #b8ad9b;
+      --blood: #751e2b;
+      --line: rgba(212,175,55,.28);
+      --max: 1100px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--ink); color: var(--parchment); font-family: Georgia, 'Times New Roman', serif; line-height: 1.75; }
+    a { color: var(--gold-pale); }
+    a:hover, a:focus-visible { color: #fff4cf; }
+    .site-shell { min-height: 100vh; background: radial-gradient(circle at 75% 0%, rgba(117,30,43,.2), transparent 32rem), linear-gradient(135deg, #0c0a0d 0%, #171119 48%, #0b090c 100%); }
+    .topbar { border-bottom: 1px solid var(--line); background: rgba(12,10,13,.9); position: sticky; top: 0; z-index: 5; backdrop-filter: blur(12px); }
+    .topbar-inner { max-width: var(--max); margin: auto; padding: .8rem 1.25rem; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+    .brand { color: var(--gold-pale); font-size: .95rem; letter-spacing: .22em; text-decoration: none; text-transform: uppercase; }
+    .back-link { font-size: .78rem; letter-spacing: .1em; text-decoration: none; text-transform: uppercase; }
+    .hero { max-width: var(--max); margin: auto; padding: 6rem 1.25rem 4.5rem; }
+    .eyebrow { color: var(--gold); font-size: .78rem; letter-spacing: .2em; text-transform: uppercase; }
+    h1, h2, h3 { font-weight: 400; line-height: 1.12; }
+    h1 { max-width: 850px; margin: .7rem 0 1.2rem; color: var(--gold-pale); font-size: clamp(3rem, 8vw, 6.8rem); letter-spacing: .02em; }
+    h2 { color: var(--gold-pale); font-size: clamp(2rem, 4vw, 3.2rem); margin: 0 0 1rem; }
+    h3 { color: var(--gold-pale); font-size: 1.45rem; margin: .2rem 0 .65rem; }
+    .lede { max-width: 54rem; color: #fff8e8; font-size: clamp(1.15rem, 2vw, 1.4rem); }
+    .actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 1.7rem; }
+    .button { display: inline-flex; align-items: center; justify-content: center; min-height: 2.8rem; padding: .7rem 1rem; border: 1px solid var(--gold); color: var(--parchment); text-decoration: none; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; transition: background .18s ease, color .18s ease, transform .18s ease; }
+    .button:hover, .button:focus-visible { background: var(--gold); color: var(--ink); transform: translateY(-1px); }
+    .button.primary { background: var(--gold); color: var(--ink); }
+    .section { border-top: 1px solid rgba(212,175,55,.14); }
+    .section-inner { max-width: var(--max); margin: auto; padding: 4.5rem 1.25rem; }
+    .section-intro { max-width: 50rem; color: var(--muted); font-size: 1.08rem; }
+    .grid-2 { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin-top: 2rem; }
+    .panel { padding: 1.4rem 1.5rem; border: 1px solid rgba(212,175,55,.2); background: rgba(32,26,34,.58); }
+    .panel p { color: var(--muted); margin: .4rem 0; }
+    .quote { margin: 2rem 0 0; padding: 1.4rem 1.5rem; border-left: 3px solid var(--gold); color: var(--gold-pale); font-size: 1.25rem; font-style: italic; background: rgba(117,30,43,.12); }
+    .start-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin-top: 2rem; }
+    .start-list a { display: block; padding: 1.1rem 1.2rem; border: 1px solid rgba(212,175,55,.22); text-decoration: none; background: rgba(32,26,34,.42); }
+    .start-list strong { display: block; color: var(--gold-pale); font-size: 1.05rem; }
+    .start-list span { display: block; margin-top: .25rem; color: var(--muted); font-size: .95rem; }
+    footer { border-top: 1px solid var(--line); padding: 2rem 1.25rem; color: var(--muted); text-align: center; font-size: .9rem; }
+    footer a { text-decoration: none; }
+    @media (max-width: 700px) { .topbar-inner { align-items: flex-start; flex-direction: column; } .hero { padding-top: 4rem; } .grid-2, .start-list { grid-template-columns: 1fr; } }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .button { transition: none; } }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://www.ironveilpress.quest/world-of-threl/#webpage",
+        "url": "https://www.ironveilpress.quest/world-of-threl/",
+        "name": "The World of Threl | Ironveil Press",
+        "description": "Enter the World of Threl, a grimdark theological TTRPG setting of broken reality, Dabar, the Anchors, the Fray, and stubborn hope from Ironveil Press.",
+        "isPartOf": { "@id": "https://www.ironveilpress.quest/#website" },
+        "about": { "@id": "https://www.ironveilpress.quest/world-of-threl/#setting" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "CreativeWork",
+        "@id": "https://www.ironveilpress.quest/world-of-threl/#setting",
+        "name": "The World of Threl",
+        "alternateName": "Threl",
+        "description": "A grimdark theological tabletop role-playing setting of broken reality, Dabar, Anchors, the Fray, the Lattice, and the Three Covenants.",
+        "url": "https://www.ironveilpress.quest/world-of-threl/",
+        "genre": ["Dark fantasy", "Tabletop role-playing game setting"],
+        "publisher": { "@id": "https://www.ironveilpress.quest/#organization" }
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://www.ironveilpress.quest/world-of-threl/#breadcrumbs",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Ironveil Press", "item": "https://www.ironveilpress.quest/" },
+          { "@type": "ListItem", "position": 2, "name": "The World of Threl", "item": "https://www.ironveilpress.quest/world-of-threl/" }
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.ironveilpress.quest/#organization",
+        "name": "Ironveil Press",
+        "url": "https://www.ironveilpress.quest/",
+        "logo": "https://www.ironveilpress.quest/assets/seo/logo.webp"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.ironveilpress.quest/#website",
+        "url": "https://www.ironveilpress.quest/",
+        "name": "Ironveil Press | Grimdark Christian TTRPG Adventures",
+        "publisher": { "@id": "https://www.ironveilpress.quest/#organization" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <div class="topbar-inner">
+        <a class="brand" href="/">Ironveil Press</a>
+        <a class="back-link" href="/#about">← Return to the main site</a>
+      </div>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">Project Threl · Setting guide</p>
+        <h1 id="page-title">The World of Threl</h1>
+        <p class="lede">Threl is a grimdark theological tabletop role-playing setting where reality no longer holds itself together by nature. Dabar, memory, resonance, and the daily work of ordinary people keep the remaining world from falling into the Fray.</p>
+        <div class="actions">
+          <a class="button primary" href="/publications/welcome-to-threl/">Read Welcome to Threl ↗</a>
+          <a class="button" href="/playtest/">Enter the public playtest ↗</a>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="decoherence-title">
+        <div class="section-inner">
+          <p class="eyebrow">A world after the breaking</p>
+          <h2 id="decoherence-title">The Great Decoherence</h2>
+          <p class="section-intro">The Grand Monochord once represented a single, sustaining harmony. When it shattered during the Great Decoherence, the relationship between language, meaning, and material existence fractured with it. The world did not simply become dangerous; it became dependent upon maintenance.</p>
+          <p class="section-intro">A mountain may still stand and a fire may still burn, but neither can be taken entirely for granted. The people of Threl preserve what remains through work, memory, ritual, and the careful use of the Word.</p>
+          <div class="quote">The world has not ended. It has become a thing that must be kept.</div>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="places-title">
+        <div class="section-inner">
+          <p class="eyebrow">Where reality holds and fails</p>
+          <h2 id="places-title">Anchors, the Fray, and the Lattice</h2>
+          <div class="grid-2">
+            <article class="panel">
+              <h3>The Anchors</h3>
+              <p>Scriptorium-Cities, commonly called Anchors, are maintained zones of relative stability. Chant-clergy, artisans, healers, scholars, and ordinary citizens all contribute to the work that lets gravity, water, fire, memory, and community remain dependable.</p>
+            </article>
+            <article class="panel">
+              <h3>The Fray</h3>
+              <p>Beyond the last dependable light lies the Fray: unspooled reality where definitions weaken and separate things may bleed into one another. It is not a sentient demon or a conventional hell. It is the wound left when the world forgets itself.</p>
+            </article>
+            <article class="panel">
+              <h3>The Lattice</h3>
+              <p>The Lattice is the stabilizing structure through which matter, meaning, memory, and resonance remain connected. When its maintenance fails, the consequences appear as drift, distortion, Scarred Nodes, and Green Rot.</p>
+            </article>
+            <article class="panel">
+              <h3>Scarred Nodes</h3>
+              <p>Where reality failed most violently, persistent wounds remain. Scarred Nodes draw instability toward them and may produce impossible echoes, altered landscapes, or the definition-eating growth known as Green Rot.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="dabar-title">
+        <div class="section-inner">
+          <p class="eyebrow">The Word beneath the world</p>
+          <h2 id="dabar-title">Dabar</h2>
+          <p class="section-intro">Dabar is a disciplined language and interface for influencing the deeper harmonics of reality. Practitioners do not own creation or invent arbitrary magic. They recover bounded fragments of the Word and speak them with consequence.</p>
+          <p class="section-intro">A valid Phrase can preserve a boundary, animate a process, reveal what is hidden, or alter a condition. Reality resists careless speech, so every use of Dabar carries responsibility, cost, and the possibility of lasting change.</p>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="covenants-title">
+        <div class="section-inner">
+          <p class="eyebrow">Three necessary, incomplete voices</p>
+          <h2 id="covenants-title">The Three Covenants</h2>
+          <p class="section-intro">The Father, Son, and Spirit are the three aspects of the Triune: principles that structure reality rather than unrelated gods. Each is necessary. Each is incomplete. The tension between them is part of the world’s continuing conversation.</p>
+          <div class="grid-2">
+            <article class="panel"><h3>The Father</h3><p>Law, structure, stasis, and judgment. The Father gives the world a form that can endure, but taken alone, that stability may harden into petrification.</p></article>
+            <article class="panel"><h3>The Son</h3><p>Grace, virtue, action, healing, and fluidity. The Son gives living movement to what has been established, but action without restraint may become instability.</p></article>
+            <article class="panel"><h3>The Spirit</h3><p>Mystery, transition, prophecy, and the liminal. The Spirit reveals what fixed structures conceal, but insight without structure or action may dissolve into uncertainty.</p></article>
+            <article class="panel"><h3>The Unchained (Collective)</h3><p>The Unchained (Collective) stands as a secular alternative to the Triune Church. Its members question inherited authority and seek their own answers without erasing the dangers of the world they inhabit.</p></article>
+          </div>
+        </div>
+      </section>
+      <section class="section" aria-labelledby="start-title">
+        <div class="section-inner">
+          <p class="eyebrow">Begin at the edge of the light</p>
+          <h2 id="start-title">Enter Threl</h2>
+          <p class="section-intro">Start with a public introduction, take the current playtest materials to the table, or walk into the Ashenfold District through The Prodigal Dungeon.</p>
+          <div class="start-list">
+            <a href="/publications/welcome-to-threl/"><strong>Welcome to Threl ↗</strong><span>A free introduction to the setting, its wounds, and the road ahead.</span></a>
+            <a href="/modules/the-prodigal-dungeon/"><strong>The Prodigal Dungeon ↗</strong><span>An introductory urban adventure about neglected stewardship and restoration.</span></a>
+            <a href="/playtest/"><strong>Public playtest ↗</strong><span>Current player and Game Master materials for entering Ashenfold.</span></a>
+            <a href="https://ironveil-press.itch.io/the-prodigal-dungeon"><strong>The Prodigal Dungeon on Itch.io ↗</strong><span>A pay-what-you-want entry point from The Warden.</span></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p><a href="/">Ironveil Press</a> · The World of Threl</p>
+    </footer>
+  </div>
+</body>
+</html>
