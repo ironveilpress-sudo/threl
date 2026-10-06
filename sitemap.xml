@@ -30,4 +30,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
+  <url>
+    <loc>https://www.ironveilpress.quest/publications/player-quickstart/Player_Quickstart_Concise.pdf</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ironveilpress.quest/publications/prodigal-dungeon-pregenerated-characters/the_prodigal-dungeon-pregenerated-characters-v3.1.pdf</loc>
+    <lastmod>2026-10-05</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
