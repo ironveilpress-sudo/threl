@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 
-const heroImage = "/images/iron-veil-press-New_background.webp";
+const heroImage = "/images/iron-veil-press-background.png";
 const playtestImage = "/manus-storage/ironveil-playtest-crossing_1e3bff1b.png";
 const catalogueImage = "/manus-storage/ironveil-catalogue-ashenfold_03d8504c.png";
 const lanternMark = "/manus-storage/ironveil-lantern-mark_d1d947ac.png";
