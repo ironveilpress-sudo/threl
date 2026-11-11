@@ -2,7 +2,7 @@
 
 This directory is reserved for the public product landing page for **The Prodigal Dungeon**.
 
-The completed page should be added only after the public product description, final cover asset, purchase URLs for DriveThruRPG and Itch.io, release status, and approved playtest relationship are confirmed.
+The completed page should be added only after the public product description, final cover asset, approved storefront destination, release status, and approved playtest relationship are confirmed.
 
 Use:
 
