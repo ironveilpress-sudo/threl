@@ -1,6 +1,6 @@
-# Iron Veil Press Website Source License
+# Ironveil Press Website Source License
 
-Copyright © 2026 Iron Veil Press.
+Copyright © 2026 Ironveil Press.
 
 Unless a file states otherwise, the **source code** in this repository is licensed under the MIT License:
 
@@ -12,4 +12,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 ## Content reservation
 
-This code license does not license Iron Veil Press setting text, The Threl lore, module prose, artwork, logos, trademarks, fonts, or third-party content. Those materials remain reserved unless a file or release explicitly states a separate license. See `docs/LICENSING_GUIDELINES.md`.
+This code license does not license Ironveil Press setting text, The Threl lore, module prose, artwork, logos, trademarks, fonts, or third-party content. Those materials remain reserved unless a file or release explicitly states a separate license. See `docs/LICENSING_GUIDELINES.md`.

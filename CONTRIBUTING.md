@@ -1,6 +1,6 @@
-# Contributing to Iron Veil Press
+# Contributing to Ironveil Press
 
-Thank you for helping maintain the public Iron Veil Press website. This repository is a public surface: a pull request, commit, issue, or asset added here should be treated as immediately inspectable by anyone.
+Thank you for helping maintain the public Ironveil Press website. This repository is a public surface: a pull request, commit, issue, or asset added here should be treated as immediately inspectable by anyone.
 
 ## Before you contribute
 
@@ -42,7 +42,7 @@ All interactive elements must be keyboard reachable, have visible focus states, 
 
 ## Asset contributions
 
-Before adding an image, confirm that Iron Veil Press has the right to use it on the public website. Record the creator, source, license, and any required attribution in the pull request. Do not commit high-resolution production masters, editable source files, unlicensed fonts, private commissioned drafts, or assets containing hidden metadata or private notes.
+Before adding an image, confirm that Ironveil Press has the right to use it on the public website. Record the creator, source, license, and any required attribution in the pull request. Do not commit high-resolution production masters, editable source files, unlicensed fonts, private commissioned drafts, or assets containing hidden metadata or private notes.
 
 Large media should use the project’s managed asset workflow rather than being placed in the source tree. Small configuration files such as `robots.txt`, `sitemap.xml`, and a favicon may live in `client/public/`.
 

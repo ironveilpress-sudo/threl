@@ -1,12 +1,12 @@
-# Iron Veil Press — Public Website
+# Ironveil Press — Public Website
 
-This repository contains the public Iron Veil Press website. Everything committed here may be inspected by anyone on the internet, built by automated deployment, and linked from public pages. Treat every file as publishable.
+This repository contains the public Ironveil Press website. Everything committed here may be inspected by anyone on the internet, built by automated deployment, and linked from public pages. Treat every file as publishable.
 
 ## Public repository boundary
 
 This repository is **not** a canon vault, production archive, private project workspace, or secret-lore repository. Do not commit internal audits, private Warden material, Frey Wars history, unresolved canon decisions, unreleased manuscripts, production masters, personal information, credentials, or absolute local filesystem paths.
 
-The current public website presents Iron Veil Press, The Threl, the module catalogue, licensing principles, community destinations, the newsletter, and the public playtest landing page. The public playtest’s downloadable files are maintained in the separate `threl-public-playtest` repository and are linked from the site.
+The current public website presents Ironveil Press, The Threl, the module catalogue, licensing principles, community destinations, the newsletter, and the public playtest landing page. The public playtest’s downloadable files are maintained in the separate `threl-public-playtest` repository and are linked from the site.
 
 ## Repository map
 
@@ -57,7 +57,7 @@ The development server is normally available at `http://localhost:3000/`. The pu
 
 ## Content principles
 
-Iron Veil Press uses a dark editorial voice: direct, weathered, invitational, and grounded in consequence. Public copy may describe Christian themes, moral tensions, spiritual struggles, redemption, Scripture-rooted worldbuilding, Dabar, Ashenfold, and the public playtest. It must not disclose private Warden history, secret Frey Wars material, internal canon disputes, or unreleased mechanics.
+Ironveil Press uses a dark editorial voice: direct, weathered, invitational, and grounded in consequence. Public copy may describe Christian themes, moral tensions, spiritual struggles, redemption, Scripture-rooted worldbuilding, Dabar, Ashenfold, and the public playtest. It must not disclose private Warden history, secret Frey Wars material, internal canon disputes, or unreleased mechanics.
 
 Public rules copy must follow the current Threl Master Reference. In particular, public MVP material should describe prepared Phrase cards with printed DCs and Strain costs, one roll, Failure Echoes, named Conditions, Force It at 6 Strain, Short and Long Rest recovery, and module-end Campaign Ripple Drift. World Drift scores, glyph arithmetic, Backlash tables, and stacked environmental modifiers must be labeled as advanced or design-layer material when mentioned.
 
@@ -81,4 +81,4 @@ Use the public issue templates for visible website bugs, broken links, accessibi
 
 ## License summary
 
-The repository’s source code and public website implementation are released under the license in `LICENSE.md`. Website content, setting text, artwork, logos, and Iron Veil Press branding may have separate rights. Read `docs/LICENSING_GUIDELINES.md` before copying, adapting, or redistributing any public material.
+The repository’s source code and public website implementation are released under the license in `LICENSE.md`. Website content, setting text, artwork, logos, and Ironveil Press branding may have separate rights. Read `docs/LICENSING_GUIDELINES.md` before copying, adapting, or redistributing any public material.

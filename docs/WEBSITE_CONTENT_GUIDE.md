@@ -2,7 +2,7 @@
 
 ## Positioning
 
-Iron Veil Press publishes grimdark Christian TTRPG adventures for D&D 5e. The brand is weathered, searching, and invitational. Public copy should make the setting feel consequential without becoming vague or sermon-like.
+Ironveil Press publishes grimdark Christian TTRPG adventures for D&D 5e. The brand is weathered, searching, and invitational. Public copy should make the setting feel consequential without becoming vague or sermon-like.
 
 ## Preferred language
 

@@ -10,7 +10,7 @@ Use this graph on a product landing page when the page describes a downloadable 
       "@type": "WebPage",
       "@id": "https://www.ironveilpress.quest/publications/[slug]/#webpage",
       "url": "https://www.ironveilpress.quest/publications/[slug]/",
-      "name": "[Product name] | Iron Veil Press",
+      "name": "[Product name] | Ironveil Press",
       "description": "[Unique page description]",
       "isPartOf": { "@id": "https://www.ironveilpress.quest/#website" },
       "about": { "@id": "https://www.ironveilpress.quest/publications/[slug]/#product" },
@@ -59,7 +59,7 @@ Use this graph on a product landing page when the page describes a downloadable 
     {
       "@type": "Organization",
       "@id": "https://www.ironveilpress.quest/#organization",
-      "name": "Iron Veil Press",
+      "name": "Ironveil Press",
       "url": "https://www.ironveilpress.quest/",
       "logo": "https://www.ironveilpress.quest/assets/seo/logo.webp"
     },

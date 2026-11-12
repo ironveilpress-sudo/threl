@@ -4,7 +4,7 @@ The `ironveilpress-site` repository is public by design. Every file is treated a
 
 ## Public content may include
 
-Public material may explain Iron Veil Press, The Threl, the Ashenfold setting, public module descriptions, public playtest instructions, approved MVP mechanics, public licensing statements, public release notes, and public community calls to action.
+Public material may explain Ironveil Press, The Threl, the Ashenfold setting, public module descriptions, public playtest instructions, approved MVP mechanics, public licensing statements, public release notes, and public community calls to action.
 
 Public copy may describe Christian themes, moral tensions, spiritual struggles, redemption, Scripture-rooted worldbuilding, and elements of faith woven into the setting. It should invite participation without turning the site into a private design archive.
 

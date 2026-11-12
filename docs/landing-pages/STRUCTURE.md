@@ -1,6 +1,6 @@
-# Iron Veil Press landing-page structure
+# Ironveil Press landing-page structure
 
-This directory records the planned public landing-page structure for downloadable Iron Veil Press products.
+This directory records the planned public landing-page structure for downloadable Ironveil Press products.
 
 ## Planned tree
 

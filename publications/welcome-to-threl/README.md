@@ -1,6 +1,6 @@
 # Welcome to Threl
 
-## A public introduction from Iron Veil Press
+## A public introduction from Ironveil Press
 
 **The road to Threl is open.**
 
@@ -53,7 +53,7 @@ The deepest questions are personal:
 
 ## Download the introduction
 
-Welcome to Threl is available as a free PDF from Iron Veil Press.
+Welcome to Threl is available as a free PDF from Ironveil Press.
 
 [Download Welcome to Threl](./WelcometoThrel.pdf)
 
@@ -61,8 +61,8 @@ The current public playtest is the next step for readers who want to bring the s
 
 [Enter the public playtest](/playtest/)
 
-## About Iron Veil Press
+## About Ironveil Press
 
-Iron Veil Press creates grimdark adventures for tables that want faith, danger, consequence, and redemption to shape play.
+Ironveil Press creates grimdark adventures for tables that want faith, danger, consequence, and redemption to shape play.
 
-[Return to Iron Veil Press](/)
+[Return to Ironveil Press](/)

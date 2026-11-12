@@ -5,7 +5,7 @@
       "@type": "WebPage",
       "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#webpage",
       "url": "https://www.ironveilpress.quest/publications/welcome-to-threl/",
-      "name": "Welcome to Threl | Iron Veil Press",
+      "name": "Welcome to Threl | Ironveil Press",
       "description": "A free public introduction to Threl: its wounded world, Dabar, enduring Anchors, the Fray, and the stories waiting on the road.",
       "isPartOf": { "@id": "https://www.ironveilpress.quest/#website" },
       "about": { "@id": "https://www.ironveilpress.quest/publications/welcome-to-threl/#product" },
@@ -54,7 +54,7 @@
     {
       "@type": "Organization",
       "@id": "https://www.ironveilpress.quest/#organization",
-      "name": "Iron Veil Press",
+      "name": "Ironveil Press",
       "url": "https://www.ironveilpress.quest/",
       "logo": "https://www.ironveilpress.quest/assets/seo/logo.webp"
     },

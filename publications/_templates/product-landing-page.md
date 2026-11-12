@@ -20,6 +20,6 @@
 
 [Related public page](/playtest/)
 
-## About Iron Veil Press
+## About Ironveil Press
 
-Iron Veil Press creates grimdark adventures for tables that want faith, danger, consequence, and redemption to shape play.
+Ironveil Press creates grimdark adventures for tables that want faith, danger, consequence, and redemption to shape play.
